@@ -45,7 +45,7 @@
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
-                  "with": "/zoomdemo/"
+                  "with": "src/environments/environment.prod.ts"
                 }
               ],
               "optimization": true,
@@ -129,8 +129,13 @@
               "devServerTarget": "websdk-sample-angular:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "websdk-sample-angular"
 }
