@@ -15,11 +15,11 @@ ZoomMtg.prepareJssdk();
 export class AppComponent implements OnInit {
 
   // setup your signature endpoint here: https://github.com/zoom/websdk-sample-signature-node.js
-  signatureEndpoint = 'http://localhost:4200'
+  signatureEndpoint = 'https://ksboccia.github.io/zoomdemo/'
   apiKey = 'Hzlj_hKWRJuLY48cdxEtaA'
   meetingNumber = 7081571540
   role = 0
-  leaveUrl = 'http://localhost:4200'
+  leaveUrl = 'https://ksboccia.github.io/'
   userName = 'Kellys Angular'
   userEmail = ''
   passWord = 'MegA1231!'
